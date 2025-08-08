@@ -1,0 +1,9 @@
+# Ignore Python bytecode files
+__pycache__/
+.venv  # Ignore virtual environment directories
+# Ignore environment variable files
+.env  # Ignore environment variable files
+Lib/
+Scripts/
+pyvenv.cfg
+Include/
