@@ -2,7 +2,7 @@
 __pycache__/
 .venv  # Ignore virtual environment directories
 # Ignore environment variable files
-.env  # Ignore environment variable files
+.env  
 Lib/
 Scripts/
 pyvenv.cfg
