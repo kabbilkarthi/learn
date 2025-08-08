@@ -18,7 +18,7 @@ def get_weather():
     # Check for empty strings or string with only spaces
     if not bool(city.strip()):
         # You could render "City Not Found" instead like we do below
-        city = "Trichy City"
+        city = "Trichy"
 
     weather_data = get_current_weather(city)
 
@@ -36,4 +36,4 @@ def get_weather():
 
 
 if __name__ == "__main__":
-    serve(app, host="0.0.0.0", port=8000)
+    app.run(host="0.0.0.0", port=8000, debug=True)
